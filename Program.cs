@@ -6,7 +6,8 @@ namespace ProjectDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Employee employee= new Employee{Id=1001,Name="kiran",Salary=970000};
+            Console.WriteLine(employee);
         }
     }
 }
